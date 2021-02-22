@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item1"
+        android:icon="@drawable/settings_icon"
+        android:title="Settings Menu"
+        app:showAsAction="ifRoom" >
+        <menu>
+            <item android:id="@+id/settings_subitem1"
+                android:title="lightmode/darkmode"/>
+            <item android:id="@+id/settings_subitem2"
+                android:title="language" />
+        </menu>
+    </item>
+    <item android:id="@+id/item2"
+        android:icon="@drawable/main_menu"
+        android:title="Main Menu"
+        app:showAsAction="ifRoom" >
+        <menu>
+            <item android:id="@+id/main_submitem1"
+                android:title="books for children" />
+            <item android:id="@+id/main_submitem2"
+                android:title="books for adults" />
+        </menu>
+    </item>
+</menu>
